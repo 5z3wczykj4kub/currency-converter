@@ -1,0 +1,33 @@
+.card {
+  width: 90%;
+  height: 13rem;
+  margin: 1rem auto 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px #ddd;
+  cursor: move;
+
+  &.card--loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: 2.5rem;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .currency-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.8rem;
+  }
+
+  .currency-prices {
+    margin-top: 1.5rem;
+    line-height: 2.25rem;
+  }
+}

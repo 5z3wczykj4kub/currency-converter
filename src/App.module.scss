@@ -1,0 +1,32 @@
+.calculator-heading {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.cards-container__info {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.error {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media (min-height: 750px) {
+  .cards-container {
+    margin-top: 5rem;
+  }
+}
+
+@media (min-height: 825px) {
+  .cards-container {
+    margin-top: 11.25rem;
+  }
+}
+
+@media (min-height: 900px) {
+  .cards-container {
+    margin-top: 17.5rem;
+  }
+}

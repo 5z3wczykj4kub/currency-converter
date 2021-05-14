@@ -1,0 +1,19 @@
+.calculator {
+  margin-top: 1.5rem;
+
+  .arrows {
+    display: block;
+    margin: 0 auto;
+    width: 4rem;
+    height: 4rem;
+    transform: translateY(15%);
+    cursor: pointer;
+
+    svg {
+      display: inline-block;
+      box-sizing: content-box;
+      padding: 1rem;
+      font-size: 2rem;
+    }
+  }
+}
