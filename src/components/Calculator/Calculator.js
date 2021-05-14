@@ -18,12 +18,10 @@ const Calculator = (props) => {
   };
 
   const openSelectHandler = () => {
-    document.body.style.overflow = "hidden";
     setIsSelectOpen(true);
   };
 
   const closeSelectHandler = () => {
-    document.body.style.overflow = "visible";
     setIsSelectOpen(false);
   };
 
@@ -35,6 +33,12 @@ const Calculator = (props) => {
   const switchToBuyingOrSellingMode = () => {
     setIsBuying((prevState) => setIsBuying(!prevState));
   };
+
+  if(isSelectOpen) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "visible";
+  }
 
   const buyingSetup = (
     <>
